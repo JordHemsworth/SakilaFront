@@ -16,7 +16,7 @@ body {
   margin-top: 50px;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
+  border: 1px solid rgb(6, 93, 163);
   padding: 30px;
   border-radius: 5px;
 }
@@ -47,6 +47,10 @@ body {
 
 .form-control {
   margin: 20px 0;
+}
+
+.add-form {
+  margin-bottom: 40px;
 }
 
 .form-control label {

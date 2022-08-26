@@ -1,7 +1,7 @@
 <header>
     <h1>  Films </h1>
-    <app-button color="green" 
-        text="hello"
+    <app-button color="{{showAddFilm ? 'red' : 'green'}}" 
+        text="{{showAddFilm ? 'Close' : 'Add Film'}}"
         (btnClick)="toggleAddFilm()"
     > 
     </app-button>

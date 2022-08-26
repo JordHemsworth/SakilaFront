@@ -1,4 +1,5 @@
-import { Component, OnInit, Input, Output } from '@angular/core';
+import { Task } from 'src/app/Task';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Film } from 'src/app/Film';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
@@ -10,6 +11,7 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 export class FilmItemComponent implements OnInit {
 
   @Input() film!: Film;
+  @Output() onDeleteFilm: EventEmitter<Film> = new EventEmitter();
 
   faTimes = faTimes;
 
@@ -19,7 +21,8 @@ export class FilmItemComponent implements OnInit {
   }
 
   onDelete(film: any) {
-    console.log(film)
+    this.onDeleteFilm.emit(film);
+ 
   }
 
 }

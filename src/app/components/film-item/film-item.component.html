@@ -1,9 +1,10 @@
 <div class="film">
+    <img src="https://picsum.photos/seed/{{film.title}}/400/250" alt="thumbnail" class="filmPic">
     <h3>{{film.title}} ({{film.rating}})
         <fa-icon (click)="onDelete(film)" [ngStyle]="{'color' : 'red'}" [icon]="faTimes">
         </fa-icon>
     </h3>
     <p>{{film.description}}</p>
+    <p class="runTime"> {{film.length}} minutes </p>
     
-
 </div>

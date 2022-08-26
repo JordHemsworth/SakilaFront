@@ -1,0 +1,44 @@
+<form *ngIf="showAddFilm" class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="title"> Title </label>
+        <input type="text" name="title" [(ngModel)]="title" id="title" placeholder="Film Title"/>
+    </div>
+    <div class="form-control">
+        <label for="description"> Description </label>
+        <input type="text" name="description" [(ngModel)]="description" id="description" placeholder="Add Description"/>
+    </div>
+    <div class="form-control">
+        <label for="release_year"> Release Year </label>
+        <input type="text" name="release_year" [(ngModel)]="release_year" id="release_year" placeholder=""/>
+    </div>
+    <div class="form-control">
+        <label for="rental_duration"> Rental Duration </label>
+        <input type="text" name="rental_duration" [(ngModel)]="rental_duration" id="rental_duration" placeholder=""/>
+    </div>
+    <div class="form-control">
+        <label for="rental_rate"> Rental Rate </label>
+        <input type="text" name="rental_rate" [(ngModel)]="rental_rate" id="rental_rate" placeholder=""/>
+    </div>
+    <div class="form-control">
+        <label for="length"> Length </label>
+        <input type="text" name="length" [(ngModel)]="length" id="length" placeholder=""/>
+    </div>
+    <div class="form-control">
+        <label for="language_id"> Language ID </label>
+        <input type="text" name="language_id" [(ngModel)]="language_id" id="language_id" placeholder=""/>
+    </div>
+    <div class="form-control">
+        <label for="replacement_cost"> Replacement Cost </label>
+        <input type="text" name="replacement_cost" [(ngModel)]="replacement_cost" id="replacement_cost" placeholder=""/>
+    </div>
+    <div class="form-control">
+        <label for="rating"> Rating </label>
+        <input type="text" name="rating" [(ngModel)]="rating" id="rating" placeholder=""/>
+    </div>
+    <div class="form-control">
+        <label for="special_features"> Special Features </label>
+        <input type="text" name="special_features" [(ngModel)]="special_features" id="special_features" placeholder=""/>
+    </div>
+    <input type="submit" value="Add Film" class="btn btn-block">
+</form>
+

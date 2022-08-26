@@ -1,4 +1,4 @@
-<!-- //<app-task-item *ngFor="let task of tasks" [task]="task" (onDeleteTask)="deleteTask(task)"> {{task.firstName}}</app-task-item> -->
+<app-header>  </app-header>
 <app-add-task (onAddActor)="addActor($event)"> </app-add-task>
 <div class="actor-container">
     <app-task-item class="actor"
@@ -7,5 +7,5 @@
     (onDeleteTask)="deleteTask(task)"
    
 > 
-{{task.firstName}}</app-task-item>
+</app-task-item>
 </div>
