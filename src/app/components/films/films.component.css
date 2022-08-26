@@ -1,0 +1,21 @@
+.film-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1600px;
+    margin: 20px auto;
+    background: #aa4545;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+
+  .film {
+    width: 300px;
+    margin: 10px;
+    min-height: 400px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+

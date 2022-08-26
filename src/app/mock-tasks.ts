@@ -1,0 +1,65 @@
+import { Film } from "./Film";
+
+export const FILMS: Film[] = [     //TASKS is type Task from the Task Interface
+  {
+    id: 1,
+    title: 'Jumani',
+    description: 'Board Game',
+    release_year: '2020',
+    rental_duration: '2020',
+    rental_rate: '10',
+    duration: 'three',
+    replacement_cost: '25',
+    rating: '10',
+    special_features: 'No',
+ 
+  },
+  {
+    id: 2,
+    title: 'Jumani 2',
+    description: 'Board Game',
+    release_year: '2020',
+    rental_duration: '2020',
+    rental_rate: '10',
+    duration: '120',
+    replacement_cost: '25',
+    rating: '10',
+    special_features: 'No',
+  },
+  {
+    id: 3,
+    title: 'Jumani 3',
+    description: 'Board Game',
+    release_year: '2020',
+    rental_duration: '2020',
+    rental_rate: '10',
+    duration: '120',
+    replacement_cost: '25',
+    rating: '10',
+    special_features: 'No',
+  },
+  {
+    id: 4,
+    title: 'Jumani 4',
+    description: 'Board Game',
+    release_year: '2020',
+    rental_duration: '2020',
+    rental_rate: '10',
+    duration: '120',
+    replacement_cost: '25',
+    rating: '10',
+    special_features: 'No',
+  },
+  {
+    id: 5,
+    title: 'Jumani 5',
+    description: 'Board Game',
+    release_year: '2020',
+    rental_duration: '2020',
+    rental_rate: '10',
+    duration: '120',
+    replacement_cost: '25',
+    rating: '10',
+    special_features: 'No'
+  }
+]
